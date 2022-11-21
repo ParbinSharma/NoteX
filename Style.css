@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Source+Code+Pro:ital,wght@1,500&display=swap');
+*{
+  font-family: 'Source Code Pro', monospace;
+}
+#myTable{
+  color: #0df5e3;
+  background-color: none;
+}
+.otp{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: #0df5e3;
+  border: none;
+  border-radius: 10px;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5vh;
+}
+
+.edit{
+  background-color: transparent;
+  border: none;
+  color: #05cdff;
+}
+.tit{
+  color: #0df5e3;
+}
+.dec{
+  color: black;
+}
+.sub{
+  border: none;
+  width: 100px;
+  padding: 5px 0;
+  border-radius: 10px;
+  background-color: #05cdff;
+}
+
+.mol{
+  background-color: #1b1a2c;
+}
+th{
+  font-size: 12px;
+}
+.form{
+  margin-top: 60px;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  color: red;
+}
+th,td,tr{
+ background-color: none;
+}
+.lineUp {
+  animation: 1s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.sc{
+  border: none;
+  background-color: transparent;
+  color: #05cdff;
+}
+.cc{
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+h3,.i{
+  color: white;
+}
+.log{
+  width: 60%;
+}
+.but{
+  width: 200px;
+  background-color:#0df5e3;
+  color: black;
+  padding: 10px 0;
+}
+.laptop{
+  width: 100%;
+  height: auto;
+}
+.alert,.alert2{
+  display: flex;
+  width:70%;
+  background-color: #A42A04;
+  
+  margin-top: 60px;
+  border-radius: 20px;
+  padding: 10px;
+  left: 0;
+  
+}
+.divert{
+  color: black;
+ 
+  
+}
+.logout{
+  border: none;
+   border-radius:5px;
+   background-color: transparent;
+   color: white;
+}
+.dismiss{
+  float: left;
+  right: 0;
+  background-color: red;
+  border: none;
+  z-index: 5;
+}
+body{
+  background-color: #1b1a2c;
+}
+.lady{
+  width: 180px;
+  height: 180px;
+  padding-top: 50px;
+}
+.otpi{
+  width: 100%;
+  height:100%;
+  padding-top: 50px;
+}
+h2{
+  color: white;
+  position: relative;
+  left: 20px;
+}
+.msg{
+  color: #9897A9;
+  position: relative;
+  left: 20px;
+}
+.option,.label{
+  color: #0df5e3;
+  text-decoration: none;
+}
+.center{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/*@media only screen and (min-width: 768px) {*/
+.inputl{
+  position: relative;
+  left:20px;
+  background-color: transparent;
+  border: 0;
+  border-bottom:2px #fff solid;
+  display: block;
+  width: 90%;
+ margin-bottom: 30px;
+  font-size: 18px;
+  color:lightblue;
+}
+.inputl:focus,.inputl:valid{
+  outline: 0;
+  border-bottom-color: #0df5e3;
+}
+.form-label{
+  position: relative;
+  left:20px;
+  font-size: 13px;
+  color:#9897A9 ;
+}
+.mb-5{
+  margin-top: 60px;
+}
+.mb-3{
+  margin-top: 40px;
+}
+.btn{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border: none;
+  background-color:#0df5e3;
+  padding: 15px 0;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.f{
+  font-size: 8px;
+}
+a{
+  color: #0df5e3;
+  text-decoration: none;
+  font-weight: bold;
+}
+.h2{
+  margin-top: 0;
+}
+.option{
+ 
+}
+video{
+  background-color: black;
+   position:relative;
+  
+  top: 36px;
+  height: auto;
+ width: 100vw;
+}
+.b{
+  background-color: #59C1BD;
+}
+nav{
+ padding: 3vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  z-index: 4;
+  padding:15px 0;
+  background-color: black;
+  opacity: 0.5;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=PT+Serif+Caption&display=swap');
+.label{
+  margin-left: 2vw;
+  
+  
+font-family: 'PT Serif Caption', serif;
+}
+.menu{
+  display: flex;
+  justify-content:space-between;
+  
+}
+.option{
+  list-style: none;
+  padding-right: 20px;
+}
+.logo{
+  width: 80px;
+}
+/*.banner{*/
+/*  width: 100%;*/
+/*  position: fixed;*/
+/*  left: 0;*/
+/*  top: 0;*/
+  
+/*}*/
+.banner {
+  /*  To contain the image to the confines of the div  */
+  position:fixed;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.img-gradient {
+  max-width: 100%; 
+  width: 800px;
+  margin: auto;
+}
+
+.img-gradient::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+
